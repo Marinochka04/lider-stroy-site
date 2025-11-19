@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../fonts/Inter-Bold.otf') format('opentype');
+    font-style: normal;
+}
+
+
+:root {
+  --color1: #72706c;
+  --color2: #21242d;
+  --color3: #cbcccb;
+  --color4: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--color2);
+    background-color: var(--color4);
+}
+
+.container {
+    margin: 0;
+    padding: 0 20px;
+}
