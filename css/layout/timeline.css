@@ -143,17 +143,17 @@
 
     .timeline-img-wrapper {
         height: 60vh;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     .timeline-cards-overlay {
         bottom: 5px;
-        left: 25px;
+        left: 10px;
         gap: 5px;
     }
 
     .timeline-card {
-        padding: 10px;
+        padding: 5px;
         width: 190px;
     }
 
