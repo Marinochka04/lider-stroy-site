@@ -175,13 +175,13 @@
     .full-resp-features {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        gap: 5px;
         margin-top: 5px;
         padding: 0 5px;
     }
 
     .feature-btn {
-        padding: 12px 20px;
+        padding: 12px 10px;
         font-size: 1rem;
         min-width: none;
     }
