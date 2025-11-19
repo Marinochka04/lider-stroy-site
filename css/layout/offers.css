@@ -193,7 +193,7 @@
     .offers-container {
         gap: 15px;  
         position: relative;
-        padding-bottom: 100px;
+        padding-bottom: 110px;
     }
 
     .offers-top {
@@ -213,7 +213,6 @@
         display: flex;
         justify-content: center;
         gap: 15px;
-        margin-top: 8px;
     }
 
     .offers-text p {

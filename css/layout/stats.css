@@ -151,7 +151,7 @@
     }
 
     .stats-img {
-        width: 100%;
+        width: 50%;
         height: auto;
         max-height: 150px;
         aspect-ratio: 1 / 1;

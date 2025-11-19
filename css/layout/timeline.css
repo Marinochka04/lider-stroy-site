@@ -143,7 +143,7 @@
 
     .timeline-img-wrapper {
         height: 60vh;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     .timeline-cards-overlay {
@@ -154,7 +154,7 @@
 
     .timeline-card {
         padding: 5px;
-        width: 190px;
+        width: 150px;
     }
 
     .timeline-card-blue {
