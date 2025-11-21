@@ -111,54 +111,47 @@
         padding: 0;
     }
 
+    /* главный фикс — делаем в колонку */
     .stats-container {
-        flex-direction: row;
-        gap: 10px;
-        padding: 0 10px;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 15px;
     }
 
+    /* текстовый блок занимает 100% */
     .stats-left {
-        padding: 0;
-        flex: 0 1 50%;
-        min-width: 0;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        gap: 5px;
+        width: 100%;
+        padding: 10px;
+        background-color: var(--color4);
+        border-radius: 10px;
+        gap: 10px;
     }
 
     .stat-card {
-        padding: 10px;
-        margin: 0;
+        padding: 10px 5px;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: auto;
     }
 
     .stat-card h3 {
-        font-size: 1.4rem;
-        margin: 0;
+        font-size: 1.6rem;
+        margin-bottom: 5px;
     }
 
     .stat-card p {
-        font-size: 1rem;
-        margin: 0;
+        font-size: 1.2rem;
     }
 
+    /* картинка теперь БОЛЬШАЯ и справа */
     .stats-right {
-        flex: 0 1 50%;
+        width: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: flex-end; /* выравниваем справа */
     }
 
     .stats-img {
+        width: 100%;
+        max-width: none; /* убираем ограничение */
         height: auto;
-        max-width: 200px;
-        object-fit: cover;
         border-radius: 10px;
     }
 }
