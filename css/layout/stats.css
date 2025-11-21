@@ -111,14 +111,12 @@
         padding: 0;
     }
 
-    /* главный фикс — делаем в колонку */
     .stats-container {
         flex-direction: column;
         gap: 15px;
         padding: 0 15px;
     }
 
-    /* текстовый блок занимает 100% */
     .stats-left {
         width: 100%;
         padding: 10px;
@@ -141,16 +139,15 @@
         font-size: 1.2rem;
     }
 
-    /* картинка теперь БОЛЬШАЯ и справа */
     .stats-right {
         width: 100%;
         display: flex;
-        justify-content: flex-end; /* выравниваем справа */
+        justify-content: flex-end;
     }
 
     .stats-img {
         width: 100%;
-        max-width: none; /* убираем ограничение */
+        max-width: none;
         height: auto;
         border-radius: 10px;
     }
