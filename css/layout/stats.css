@@ -114,12 +114,12 @@
     .stats-container {
         flex-direction: row;
         gap: 10px;
-        padding: 0 5px;
+        padding: 0 10px;
     }
 
     .stats-left {
-        padding: 5px;
-        flex: 0 1 40%;
+        padding: 0;
+        flex: 0 1 50%;
         min-width: 0;
         display: flex;
         justify-content: space-between;
@@ -149,7 +149,7 @@
     }
 
     .stats-right {
-        flex: 0 1 60%;
+        flex: 0 1 50%;
         display: flex;
         align-items: center;
         justify-content: center;
